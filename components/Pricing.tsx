@@ -67,7 +67,7 @@ export const Pricing: React.FC = () => {
       </div>
 
       <div className="container-fluid relative z-10">
-        <h2 className="text-[32px] md:text-[52px] font-heading font-bold mb-20 text-center tracking-tighter leading-none uppercase">Формат <span className="inline-flex whitespace-nowrap px-[0.12em] -mx-[0.12em] pb-[0.06em] bg-gradient-to-r from-artevrika via-[#ffbb00] via-terracotta via-[#ffbb00] to-artevrika bg-[length:300%_auto] animate-shimmer bg-clip-text text-transparent italic leading-[1.05] drop-shadow-[0_0_15px_rgba(242,81,81,0.2)] underline decoration-terracotta/40 underline-offset-[0.14em] [text-decoration-thickness:0.06em]">участия</span></h2>
+        <h2 className="text-[32px] md:text-[52px] font-heading font-bold mb-20 text-center tracking-tighter leading-none uppercase text-[#1c3e42] dark:text-white">Формат <span className="inline-flex whitespace-nowrap px-[0.12em] -mx-[0.12em] pb-[0.06em] bg-gradient-to-r from-artevrika via-[#ffbb00] via-terracotta via-[#ffbb00] to-artevrika bg-[length:300%_auto] animate-shimmer bg-clip-text text-transparent italic leading-[1.05] drop-shadow-[0_0_15px_rgba(242,81,81,0.2)] underline decoration-terracotta/40 underline-offset-[0.14em] [text-decoration-thickness:0.06em]">участия</span></h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
           {TIERS.map((tier, i) => (
@@ -87,7 +87,7 @@ export const Pricing: React.FC = () => {
               )}
               
               <div className="mb-10">
-                <h3 className="text-[24px] font-heading font-bold mb-1 tracking-tight uppercase leading-none">{tier.name}</h3>
+                <h3 className="text-[24px] font-heading font-bold mb-1 tracking-tight uppercase leading-none text-[#1c3e42] dark:text-white">{tier.name}</h3>
                 <p className="text-zinc-500 dark:text-zinc-400 text-[10px] font-heading font-bold uppercase tracking-widest mb-8">{tier.sub}</p>
                 <div className="flex items-baseline gap-2">
                   <span className="text-[32px] md:text-[42px] font-heading font-bold tracking-tighter leading-none">{tier.price}</span>

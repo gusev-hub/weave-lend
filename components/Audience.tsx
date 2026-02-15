@@ -55,7 +55,7 @@ export const Audience: React.FC = () => {
       <div className="container-fluid relative z-10">
         <div className="text-center mb-32 md:mb-40">
           <span className="font-heading text-[11px] uppercase tracking-[0.6em] text-artevrika font-black mb-8 block">Целевая аудитория</span>
-          <h2 className="text-[clamp(32px,4.5vw,56px)] font-heading font-bold mb-10 tracking-tighter dark:text-white text-zinc-900 leading-[0.9] uppercase">
+          <h2 className="text-[clamp(32px,4.5vw,56px)] font-heading font-bold mb-10 tracking-tighter dark:text-white text-[#1c3e42] leading-[0.9] uppercase">
             Для кого <br/><span className="inline-flex whitespace-nowrap px-[0.12em] -mx-[0.12em] pb-[0.06em] bg-gradient-to-r from-artevrika via-[#ffbb00] via-terracotta via-[#ffbb00] to-artevrika bg-[length:300%_auto] animate-shimmer bg-clip-text text-transparent italic leading-[1.05] drop-shadow-[0_0_15px_rgba(242,81,81,0.2)] underline decoration-terracotta/40 underline-offset-[0.14em] [text-decoration-thickness:0.06em]">этот курс</span>
           </h2>
           <p className="text-[18px] md:text-[20px] font-sans font-medium text-zinc-500 dark:text-zinc-400 max-w-3xl mx-auto leading-relaxed">
@@ -79,7 +79,7 @@ export const Audience: React.FC = () => {
               </div>
               
               <div className="mb-6 md:mb-8 relative z-10">
-                <h3 className="text-[clamp(16px,2vw,24px)] font-heading font-bold dark:text-white text-zinc-900 tracking-tight uppercase leading-[1.1] break-words hyphens-auto" style={{ wordBreak: 'break-word', hyphens: 'auto' } as any}>
+                <h3 className="text-[clamp(16px,2vw,24px)] font-heading font-bold dark:text-white text-[#1c3e42] tracking-tight uppercase leading-[1.1] break-words hyphens-auto" style={{ wordBreak: 'break-word', hyphens: 'auto' } as any}>
                   {p.title}
                 </h3>
               </div>

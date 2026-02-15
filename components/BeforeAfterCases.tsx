@@ -75,7 +75,7 @@ const BeforeAfterSlider: React.FC<CaseItemProps> = ({ before, after, title, desc
       </div>
 
       <div className="px-2">
-        <h4 className="text-[18px] md:text-[22px] font-heading font-bold dark:text-white text-zinc-900 uppercase tracking-tight mb-3 leading-none transition-colors group-hover:text-terracotta">
+        <h4 className="text-[18px] md:text-[22px] font-heading font-bold dark:text-white text-[#1c3e42] uppercase tracking-tight mb-3 leading-none transition-colors group-hover:text-terracotta">
           {title}
         </h4>
         <p className="text-[14px] md:text-[16px] font-sans font-medium text-zinc-500 dark:text-zinc-400 leading-relaxed max-w-2xl">
@@ -127,7 +127,7 @@ export const BeforeAfterCases: React.FC = () => {
       <div className="container-fluid">
         <div className="max-w-4xl mb-20">
           <span className="text-artevrika text-[10px] font-black uppercase tracking-[0.5em] mb-6 block font-heading">Кейсы до / после</span>
-          <h2 className="text-[clamp(28px,4vw,52px)] font-heading font-bold mb-10 tracking-tighter dark:text-white text-zinc-900 leading-[0.95] uppercase">
+          <h2 className="text-[clamp(28px,4vw,52px)] font-heading font-bold mb-10 tracking-tighter dark:text-white text-[#1c3e42] leading-[0.95] uppercase">
             Результаты за <span className="inline-flex whitespace-nowrap px-[0.12em] -mx-[0.12em] pb-[0.06em] bg-gradient-to-r from-artevrika via-[#ffbb00] via-terracotta via-[#ffbb00] to-artevrika bg-[length:300%_auto] animate-shimmer bg-clip-text text-transparent italic leading-[1.05] drop-shadow-[0_0_15px_rgba(242,81,81,0.2)] underline decoration-terracotta/40 underline-offset-[0.14em] [text-decoration-thickness:0.06em]">минуты</span>, <br />
             не за недели
           </h2>

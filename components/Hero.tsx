@@ -54,7 +54,7 @@ const TitleNode = ({ data }: any) => (
       <Zap size={14} className="text-terracotta fill-terracotta" /> Онлайн-курс · 6 недель · Старт 20 октября
     </div>
     
-    <h1 className="text-[32px] md:text-[52px] lg:text-[64px] font-bold leading-[1.05] mb-4 tracking-tighter uppercase text-zinc-900 dark:text-white font-heading">
+    <h1 className="text-[32px] md:text-[52px] lg:text-[64px] font-bold leading-[1.05] mb-4 tracking-tighter uppercase text-[#1c3e42] dark:text-white font-heading">
       Вы делаете <span className="text-zinc-400 dark:text-zinc-600">дизайн.</span> <br />
       <span className="inline-block whitespace-nowrap pr-[0.08em] bg-gradient-to-r from-artevrika via-[#ffbb00] via-terracotta via-[#ffbb00] to-artevrika bg-[length:300%_auto] animate-shimmer bg-clip-text text-transparent italic drop-shadow-[0_0_15px_rgba(242,81,81,0.2)] underline decoration-terracotta/40 underline-offset-[0.12em] [text-decoration-thickness:0.06em]">AI делает</span> визуализации.
     </h1>

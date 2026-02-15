@@ -31,7 +31,7 @@ export const PainPoints: React.FC = () => {
     <section id="pain-points" className="py-32 bg-white dark:bg-[#0c0c0e] border-t border-zinc-100 dark:border-zinc-900 transition-colors duration-300 overflow-visible">
       <div className="container-fluid">
         <div className="text-center mb-24">
-          <h2 className="text-[clamp(24px,3.5vw,40px)] font-heading font-bold mb-4 tracking-tighter dark:text-white text-zinc-900 uppercase leading-none">Знакомо?</h2>
+          <h2 className="text-[clamp(24px,3.5vw,40px)] font-heading font-bold mb-4 tracking-tighter dark:text-white text-[#1c3e42] uppercase leading-none">Знакомо?</h2>
           <p className="text-[15px] md:text-[17px] font-sans font-normal text-zinc-500 dark:text-zinc-400 max-w-xl mx-auto leading-relaxed">
             Дизайн-индустрия меняется. Старые методы становятся слишком медленными.
           </p>
@@ -48,7 +48,7 @@ export const PainPoints: React.FC = () => {
               className="relative px-8 pb-8 pt-14 md:px-10 md:pb-10 md:pt-16 rounded-[2.5rem] bg-[#1b4b4a] dark:bg-[#121214] border border-artevrika/35 dark:border-white/5 hover:ring-[6px] hover:ring-artevrika/25 transition-all duration-300 group shadow-xl flex flex-col items-start h-full overflow-visible"
             >
               {/* Floating Icon */}
-              <div className="absolute -top-7 left-8 w-14 h-14 rounded-2xl flex items-center justify-center bg-white/10 dark:bg-zinc-800 text-white shadow-lg transition-all duration-500 group-hover:rotate-6 group-hover:scale-110 border border-white/20 dark:border-white/5">
+              <div className="absolute -top-7 left-8 w-14 h-14 rounded-2xl flex items-center justify-center bg-[#f35152] backdrop-blur-xl text-white shadow-lg transition-all duration-500 group-hover:rotate-6 group-hover:scale-110 border border-white/20">
                 {React.cloneElement(point.icon as React.ReactElement<any>, { size: 22, strokeWidth: 2.5 })}
               </div>
 

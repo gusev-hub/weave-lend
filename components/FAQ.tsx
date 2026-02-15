@@ -33,7 +33,7 @@ export const FAQ: React.FC = () => {
   return (
     <section id="faq" className="py-24 bg-white dark:bg-[#0c0c0e] transition-colors duration-300">
       <div className="container-fluid max-w-[900px]">
-        <h2 className="text-[32px] md:text-[52px] font-heading font-bold mb-16 text-center tracking-tighter dark:text-white text-zinc-900 uppercase">Частые вопросы</h2>
+        <h2 className="text-[32px] md:text-[52px] font-heading font-bold mb-16 text-center tracking-tighter dark:text-white text-[#1c3e42] uppercase">Частые вопросы</h2>
         
         <div className="space-y-6">
           {FAQS.map((faq, i) => (

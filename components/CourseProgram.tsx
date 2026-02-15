@@ -39,7 +39,7 @@ const ModuleNode = ({ data }: any) => (
         </div>
       </div>
       
-      <h4 className="font-heading font-bold text-[22px] mb-6 leading-[1.1] group-hover:text-terracotta transition-colors dark:text-white text-zinc-900 uppercase tracking-tighter">
+      <h4 className="font-heading font-bold text-[22px] mb-6 leading-[1.1] group-hover:text-terracotta transition-colors dark:text-white text-[#1c3e42] uppercase tracking-tighter">
         {data.title}
       </h4>
       
@@ -76,7 +76,7 @@ const FinalNode = ({ data }: any) => (
       🎓
     </div>
     <span className="text-[10px] font-heading font-black uppercase text-artevrika tracking-[0.5em] mb-4">Финал обучения</span>
-    <h3 className="text-[28px] font-heading font-bold text-zinc-900 dark:text-white mb-6 tracking-tighter uppercase leading-[0.9]">
+    <h3 className="text-[28px] font-heading font-bold text-[#1c3e42] dark:text-white mb-6 tracking-tighter uppercase leading-[0.9]">
       Выпускной <br/> проект
     </h3>
     <div className="flex flex-col gap-3 text-zinc-500 dark:text-zinc-400 text-[15px] font-sans font-medium">
@@ -337,7 +337,7 @@ export const CourseProgram: React.FC = () => {
         <span className="font-heading text-[11px] uppercase tracking-[0.6em] text-artevrika font-black mb-8 block">
           Учебный план
         </span>
-        <h2 className="text-[clamp(32px,4vw,56px)] font-heading font-black mb-6 tracking-tighter dark:text-white text-zinc-900 leading-[1] uppercase">
+        <h2 className="text-[clamp(32px,4vw,56px)] font-heading font-black mb-6 tracking-tighter dark:text-white text-[#1c3e42] leading-[1] uppercase">
           Программа <br />
           <span className="inline-flex whitespace-nowrap px-[0.12em] -mx-[0.12em] pb-[0.06em] bg-gradient-to-r from-artevrika via-[#ffbb00] via-terracotta via-[#ffbb00] to-artevrika bg-[length:300%_auto] animate-shimmer bg-clip-text text-transparent italic leading-[1.05] drop-shadow-[0_0_15px_rgba(242,81,81,0.2)] underline decoration-terracotta/40 underline-offset-[0.14em] [text-decoration-thickness:0.06em]">мастерства</span>
         </h2>

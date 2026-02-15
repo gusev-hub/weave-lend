@@ -14,7 +14,7 @@ export const Format: React.FC = () => {
   return (
     <section className="py-40 bg-softzinc dark:bg-[#0b0b0d] transition-colors duration-500 overflow-visible">
       <div className="max-w-[1200px] mx-auto px-6">
-        <h2 className="text-4xl lg:text-7xl font-heading font-black mb-32 text-center italic tracking-tighter uppercase dark:text-white text-zinc-900">Как мы учим</h2>
+        <h2 className="text-4xl lg:text-7xl font-heading font-black mb-32 text-center italic tracking-tighter uppercase dark:text-white text-[#1c3e42]">Как мы учим</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {FORMATS.map((f, i) => (
@@ -27,7 +27,7 @@ export const Format: React.FC = () => {
               >
                 {React.cloneElement(f.icon as React.ReactElement<any>, { size: 28 })}
               </div>
-              <h4 className="text-xl font-heading font-black mb-6 tracking-tight leading-tight uppercase dark:text-white text-zinc-900">{f.title}</h4>
+              <h4 className="text-xl font-heading font-black mb-6 tracking-tight leading-tight uppercase dark:text-white text-[#1c3e42]">{f.title}</h4>
               <p className="text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed font-sans font-medium">{f.text}</p>
               
               <div className="absolute top-8 right-8 text-4xl font-heading font-black text-zinc-100 dark:text-white/5 select-none transition-colors group-hover:text-artevrika/10">

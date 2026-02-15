@@ -43,7 +43,7 @@ export const Solution: React.FC = () => {
 
       <div className="container-fluid relative z-10">
         <div className="mb-20">
-          <h2 className="text-[clamp(28px,4vw,48px)] font-heading font-bold mb-4 tracking-tighter leading-[0.9] dark:text-white text-zinc-900 uppercase">
+          <h2 className="text-[clamp(28px,4vw,48px)] font-heading font-bold mb-4 tracking-tighter leading-[0.9] dark:text-white text-[#1c3e42] uppercase">
             После курса ваш процесс <br />
             <span className="inline-flex whitespace-nowrap px-[0.12em] -mx-[0.12em] pb-[0.06em] bg-gradient-to-r from-artevrika via-[#ffbb00] via-terracotta via-[#ffbb00] to-artevrika bg-[length:300%_auto] animate-shimmer bg-clip-text text-transparent italic leading-[1.05] drop-shadow-[0_0_15px_rgba(242,81,81,0.2)] underline decoration-terracotta/40 underline-offset-[0.14em] [text-decoration-thickness:0.06em]">выглядит так</span>
           </h2>
@@ -65,7 +65,7 @@ export const Solution: React.FC = () => {
                     {React.cloneElement(item.icon as React.ReactElement<any>, { size: 22, strokeWidth: 2.5 })}
                   </div>
                   
-                  <h4 className="relative z-10 text-[clamp(13px,1.5vw,16px)] font-heading font-bold tracking-tight dark:text-white text-zinc-900 uppercase leading-tight break-words hyphens-auto">
+                  <h4 className="relative z-10 text-[clamp(13px,1.5vw,16px)] font-heading font-bold tracking-tight dark:text-white text-[#1c3e42] uppercase leading-tight break-words hyphens-auto">
                     {item.title}
                   </h4>
                   
@@ -86,7 +86,7 @@ export const Solution: React.FC = () => {
               
               <div className="relative z-10 space-y-3 flex-1 text-center md:text-left">
                  <div className="flex flex-wrap items-center justify-center md:justify-start gap-3">
-                   <h4 className="text-[clamp(14px,1.8vw,18px)] font-heading font-bold tracking-tight text-zinc-900 dark:text-white uppercase leading-none break-words">
+                   <h4 className="text-[clamp(14px,1.8vw,18px)] font-heading font-bold tracking-tight text-[#1c3e42] dark:text-white uppercase leading-none break-words">
                      {WIDE_ITEM.title}
                    </h4>
                  </div>

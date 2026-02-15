@@ -26,7 +26,7 @@ export const Artifacts: React.FC = () => {
   return (
     <section className="py-24 bg-white dark:bg-[#0c0c0e] transition-colors duration-300 overflow-visible">
       <div className="max-w-[1200px] mx-auto px-6">
-        <h2 className="text-3xl lg:text-5xl font-black mb-16 text-center tracking-tighter dark:text-white text-zinc-900 uppercase">
+        <h2 className="text-3xl lg:text-5xl font-black mb-16 text-center tracking-tighter dark:text-white text-[#1c3e42] uppercase">
           Что ты <span className="inline-flex whitespace-nowrap px-[0.12em] -mx-[0.12em] pb-[0.06em] bg-gradient-to-r from-artevrika via-[#ffbb00] via-terracotta via-[#ffbb00] to-artevrika bg-[length:300%_auto] animate-shimmer bg-clip-text text-transparent italic leading-[1.05] drop-shadow-[0_0_15px_rgba(242,81,81,0.2)] underline decoration-terracotta/40 underline-offset-[0.14em] [text-decoration-thickness:0.06em]">заберёшь</span>
         </h2>
         
