@@ -65,16 +65,15 @@ jobs:
           </IfModule>
           EOF
 
-      - name: Deploy to Beget via SSH
-        uses: appleboy/scp-action@v0.1.7
+      - name: Sync files via FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.4
         with:
-          host: ${{ secrets.BEGET_HOST }}
-          username: ${{ secrets.BEGET_USER }}
-          key: ${{ secrets.BEGET_SSH_KEY }}
-          source: "dist/*"
-          target: ${{ secrets.BEGET_PATH }}
-          strip_components: 1
-          rm: true
+          server: ${{ secrets.BEGET_FTP_HOST }}
+          username: ${{ secrets.BEGET_FTP_USER }}
+          password: ${{ secrets.BEGET_FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: ${{ secrets.BEGET_FTP_PATH }}
+          dangerous-clean-slate: true
 
       - name: Deployment status
         run: |
