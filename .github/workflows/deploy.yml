@@ -65,15 +65,19 @@ jobs:
           </IfModule>
           EOF
 
-      - name: Sync files via FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.3.4
-        with:
-          server: ${{ secrets.BEGET_FTP_HOST }}
-          username: ${{ secrets.BEGET_FTP_USER }}
-          password: ${{ secrets.BEGET_FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: ${{ secrets.BEGET_FTP_PATH }}
-          dangerous-clean-slate: true
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.BEGET_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed255
+          ssh-keyscan -H ${{ secrets.BEGET_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Sync files to server
+        run: |
+          rsync -avz --delete \
+            -e "ssh -o StrictHostKeyChecking=no" \
+            dist/ \
+            ${{ secrets.BEGET_USER }}@${{ secrets.BEGET_HOST }}:${{ secrets.BEGET_PATH }}
 
       - name: Deployment status
         run: |
